@@ -1,7 +1,6 @@
 # serve.py
 
-from flask import Flask, send_from_directory
-from flask import render_template
+from flask import Flask
 
 # creates a Flask application, named app
 app = Flask(__name__, static_folder="www")
